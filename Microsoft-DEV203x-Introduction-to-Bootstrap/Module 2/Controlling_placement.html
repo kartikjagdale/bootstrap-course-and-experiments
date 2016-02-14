@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello Bootstrap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Stylesheets -->
+    <link rel='stylesheet' href='./Styles/bootstrap.min.css' />
+    <!-- Scripts -->
+	<script src="./scripts/jquery-2.2.0.min.js"></script>
+	<script src="./scripts/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+  	<!-- With offset -->
+  	<div class="row">
+  		<div class="col-md-4 col-md-offset-2">
+  			<h3>First</h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus sagittis mattis. Quisque risus massa, blandit a imperdiet nec, pellentesque a lorem. Curabitur hendrerit mauris risus, viverra ullamcorper velit laoreet varius. Nullam congue massa ac leo vehicula, eu lobortis mauris tincidunt. Aliquam lacinia turpis sit amet sem efficitur, sit amet rutrum ipsum venenatis. Curabitur vel imperdiet mi. Aliquam erat volutpat. Praesent a imperdiet ligula, in ultricies enim. Morbi sed nibh posuere, cursus neque quis, facilisis urna. 
+  		</div>
+  		<div class="col-md-4"><h3>Second</h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus sagittis mattis. Quisque risus massa, blandit a imperdiet nec, pellentesque a lorem. Curabitur hendrerit mauris risus, viverra ullamcorper velit laoreet varius. Nullam congue massa ac leo vehicula, eu lobortis mauris tincidunt. Aliquam lacinia turpis sit amet sem efficitur, sit amet rutrum ipsum venenatis. Curabitur vel imperdiet mi. Aliquam erat volutpat. Praesent a imperdiet ligula, in ultricies enim. Morbi sed nibh posuere, cursus neque quis, facilisis urna. 
+  		</div>
+  	</div>
+  	<!-- With No offset -->
+  		<div class="row">
+  		<div class="col-md-4">
+  			<h3>First</h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus sagittis mattis. Quisque risus massa, blandit a imperdiet nec, pellentesque a lorem. Curabitur hendrerit mauris risus, viverra ullamcorper velit laoreet varius. Nullam congue massa ac leo vehicula, eu lobortis mauris tincidunt. Aliquam lacinia turpis sit amet sem efficitur, sit amet rutrum ipsum venenatis. Curabitur vel imperdiet mi. Aliquam erat volutpat. Praesent a imperdiet ligula, in ultricies enim. Morbi sed nibh posuere, cursus neque quis, facilisis urna. 
+  		</div>
+  		<div class="col-md-4"><h3>Second</h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus sagittis mattis. Quisque risus massa, blandit a imperdiet nec, pellentesque a lorem. Curabitur hendrerit mauris risus, viverra ullamcorper velit laoreet varius. Nullam congue massa ac leo vehicula, eu lobortis mauris tincidunt. Aliquam lacinia turpis sit amet sem efficitur, sit amet rutrum ipsum venenatis. Curabitur vel imperdiet mi. Aliquam erat volutpat. Praesent a imperdiet ligula, in ultricies enim. Morbi sed nibh posuere, cursus neque quis, facilisis urna. 
+  		</div>
+  	</div>
+	</div>
+
+<!-- Push Pull example -->
+<!-- The below example dosent work very well as we designed it for
+large devices first and then optimized it for small devices -->
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-xs-push-12 col-md-4">
+					<h3>Not very Important</h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus sagittis mattis. Quisque risus massa, blandit a imperdiet nec, pellentesque a lorem. Curabitur hendrerit mauris risus, viverra ullamcorper velit laoreet varius. Nullam congue massa ac leo vehicula, eu lobortis mauris tincidunt. Aliquam lacinia turpis sit amet sem efficitur, sit amet rutrum ipsum venenatis. Curabitur vel imperdiet mi. Aliquam erat volutpat. Praesent a imperdiet ligula, in ultricies enim. Morbi sed nibh posuere, cursus neque quis, facilisis urna. 
+			</div>
+			<div class="col-xs-12 col-xs-pull-6 col-md-4">
+        <h3>Very Important</h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus sagittis mattis. Quisque risus massa, blandit a imperdiet nec, pellentesque a lorem. Curabitur hendrerit mauris risus, viverra ullamcorper velit laoreet varius. Nullam congue massa ac leo vehicula, eu lobortis mauris tincidunt. Aliquam lacinia turpis sit amet sem efficitur, sit amet rutrum ipsum venenatis. Curabitur vel imperdiet mi. Aliquam erat volutpat. Praesent a imperdiet ligula, in ultricies enim. Morbi sed nibh posuere, cursus neque quis, facilisis urna. 
+			</div>
+	  </div>
+	</div>
+
+
+<!-- Pull Push example -->
+<!-- Remeber bootstrap is mobile first device -->
+<!-- So we will first make things from prespective of mobile -->
+<!-- and then optimise it for large device -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-6 col-md-push-6">
+          <h3>Very Important</h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus sagittis mattis. Quisque risus massa, blandit a imperdiet nec, pellentesque a lorem. Curabitur hendrerit mauris risus, viverra ullamcorper velit laoreet varius. Nullam congue massa ac leo vehicula, eu lobortis mauris tincidunt. Aliquam lacinia turpis sit amet sem efficitur, sit amet rutrum ipsum venenatis. Curabitur vel imperdiet mi. Aliquam erat volutpat. Praesent a imperdiet ligula, in ultricies enim. Morbi sed nibh posuere, cursus neque quis, facilisis urna. 
+      </div>
+      <div class="col-xs-12 col-md-6 col-md-pull-6">
+        <h3>Not Very Important</h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus sagittis mattis. Quisque risus massa, blandit a imperdiet nec, pellentesque a lorem. Curabitur hendrerit mauris risus, viverra ullamcorper velit laoreet varius. Nullam congue massa ac leo vehicula, eu lobortis mauris tincidunt. Aliquam lacinia turpis sit amet sem efficitur, sit amet rutrum ipsum venenatis. Curabitur vel imperdiet mi. Aliquam erat volutpat. Praesent a imperdiet ligula, in ultricies enim. Morbi sed nibh posuere, cursus neque quis, facilisis urna. 
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
